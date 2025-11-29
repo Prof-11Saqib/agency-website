@@ -557,4 +557,35 @@ body {
   .contact__wrapper {
      grid-template-columns: 1fr 1.5fr;
   }
+
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.faq {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  transition: 0.3s ease;
+}
+
+.faq-question {
+  cursor: pointer;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.faq-answer {
+  display: none;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.faq.active .faq-answer {
+  display: block;
 }
