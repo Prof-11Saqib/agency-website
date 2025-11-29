@@ -20,4 +20,11 @@ document.addEventListener('DOMContentLoaded', () => {
       navMenu.classList.remove('is-active');
     });
   });
+
+});
+
+document.querySelectorAll('.faq-question').forEach(question => {
+  question.addEventListener('click', () => {
+    question.parentElement.classList.toggle('active');
+  });
 });
