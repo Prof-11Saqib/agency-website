@@ -589,3 +589,45 @@ body {
 .faq.active .faq-answer {
   display: block;
 }
+
+.what-we-do ul,
+.service-category ul,
+.industries-list {
+  list-style: none;
+  padding: 0;
+  margin: 1em 0;
+}
+
+.what-we-do li,
+.service-category li,
+.industries-list li {
+  margin-bottom: 0.5em;
+  line-height: 1.6;
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 1.5em;
+  backdrop-filter: blur(10px);
+}
+
+.grid-cols-2, .grid-cols-3 {
+  display: grid;
+  gap: 1.5em;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.section-subheading {
+  margin-top: 2em;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
