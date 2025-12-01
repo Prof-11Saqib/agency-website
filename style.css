@@ -631,3 +631,11 @@ body {
   font-weight: 600;
 }
 
+/* Style for logo image */
+.logo-img {
+  height: 40px;      /* adjust size as needed */
+  width: auto;       /* keeps correct proportions */
+  display: block;    /* removes unwanted spacing */
+}
+
+
