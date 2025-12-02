@@ -633,10 +633,11 @@ body {
 
 /* Style for logo image */
 .logo-img {
-  height: 140px;      /* adjust size as needed */
+  height: 180px;      /* adjust size as needed */
   width: auto;       /* keeps correct proportions */
   display: block;    /* removes unwanted spacing */
 }
+
 
 
 
